@@ -1,65 +1,65 @@
 {"intents": [
-    {"tag": "greeting",
-     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
-     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+    {"tag": "saudação",
+     "patterns": ["Olá!!", "Como você está?", "Tem alguém aí?","Oi","Oie", "Alô"],
+     "responses": ["Olá!!, obrigado por perguntar.", "Que bom ver você novamente.","Olá, como posso ajudar?"]
  
     },
-    {"tag": "goodbye",
-     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."] 
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com você, tchau","Até a próxima"],
+     "responses": ["Nos vemos!", "Tenha um ótimo dia", "Tchau! Volte logo.", "Tenha um ótimo dia"] 
  
     },
-    {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-     "responses": ["Happy to help!", "No problem, any time!", "My pleasure"]
+    {"tag": "agradecimento",
+     "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi útil", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
+     "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
  
     },
-    {"tag": "noanswer",
+    {"tag": "sem_resposta",
      "patterns": [""],
-     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+     "responses": ["Desculpe, não consegui entender você.", "Por favor dê-me mais informações.", "Acho que não entendi."]
  
     },
-    {"tag": "options",
-     "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
-     "responses": ["I can show you some latest electronic gadegets" , 
-                    "I can show you some really cool Smartphones" , 
-                    "Why don't i show you some awesome Headphones" , 
-                    "Wanna check out some Video Games" , "How about some cool digital cameras?"]
+    {"tag": "opções",
+     "patterns": ["Como você poderia me ajudar?", "Que ajuda você oferece?", "Como você pode ser útil?"],
+     "responses": ["Posso mostrar a você alguns aparelhos eletrônicos mais recentes" , 
+                   "Eu posso lhe mostrar alguns smartphones muito legais" , 
+                   "Por que eu não lhee mostro alguns fones de ouvido incríveis?" , 
+                   "Quer conferir alguns videogames?" , "Que tal algumas câmeras digitais legais?"]
  
     },
-    {"tag": "products",
-        "patterns": ["Can you show me all your products?", "What all products do you have?" , 
-                    "What do you sell?"],
-        "responses": ["Yes i have a great variety of Smartphones , Digital Cameras , Headphones and Video Games"]
+    {"tag": "produtos",
+        "patterns": ["Você pode me mostrar todos os seus produtos?", "Quais são todos os produtos que você tem?" , 
+                    "O que você está vendendo?"],
+        "responses": ["Sim, eu tenho uma grande variedade de Smartphones, Câmeras Digitais, Fones de Ouvido e Videogames"]
     
     },
     {"tag": "smartphone",
-        "patterns": ["Which is the most popular phone?", "Which is the most trending smartphone?" , 
-                    "Which is the best phone?"],
-        "responses": ["iPhone 12 is the most popular phone" , "Samsung Galaxy Z is the most trending phone" , 
-                    "OnePlus 9 is the latest phone"]
+        "patterns": ["Qual é o telefone mais popular?", "Qual é o smartphone mais atual?" , 
+                    "Qual é o melhor telefone"],
+        "responses": ["O iPhone 12 é o telefone mais popular" , "Samsung Galaxy Z é o telefone mais atual" , 
+                    "OnePlus 9 é o telefone mais recente"]
     
     },
-    {"tag": "camera",
-        "patterns": ["Which is the most popular digital camera?", "Which is the most trending camera?" , 
-                    "Which is the best camera?"],
-        "responses": ["Canon EOS is the most popular camera. Do check it out!" , 
-                    "Panasonic LUMIX is the one you are looking for!"]
+    {"tag": "câmera",
+        "patterns": ["Qual é a câmera digital mais popular?", "Qual é a câmera mais atual?" , 
+                    "Qual é a melhor câmera?"],
+        "responses": ["A Canon EOS é a câmera mais popular. Confira!", 
+                    "O Panasonic LUMIX é o que você procura!"]
     
     },
-    {"tag": "headphone",
-        "patterns": ["Which is the most popular Headphone?", "Which is the most trending bluetooth headphone?" , 
-                    "Which is the best headphone?"],
-        "responses": ["I love BOAT headphones, you should try them" , 
-                    "Skull Candy has a really cool collection, do check it out!" , 
-                    "Sennheiser is the hottest brand right now, do check it out!"]
+    {"tag": "fone_de_ouvido",
+        "patterns": ["Qual é o fone de ouvido mais popular?", "Qual é o fone de ouvido bluetooth mais atual?" , 
+                    "Qual é o melhor fone de ouvido?"],
+        "responses": ["Eu amo fones de ouvido da BOAT, você deveria experimentá-los" , 
+                    "O Skull Candy tem uma coleção muito legal, confira!" , 
+                    "Sennheiser é a marca mais quente do momento, confira!"]
     
     },
-    {"tag": "videogame",
-        "patterns": ["Which the most trending video game?", "Please tell me the latest Video game!" , 
-                    "Do you have any cool Video game?"],
-        "responses": ["I have CALL OF DUTY as one of my favourites of all time" , 
-                    "I you like Adventure, you should try out GTA-VICE CITY"]
+    {"tag": "vídeogame",
+        "patterns": ["Qual é o videogame mais atual?", "Por favor, me diga qual é o vídeogame mais recente!" , 
+                    "Você tem algum videogame legal?"],
+        "responses": ["Eu considero CALL OF DUTY como um dos meus favoritos de todos os tempos" , 
+                    "Se você gosta de aventura, deveria experimentar o GTA-VICE CITY"]
     
     }
 ]
